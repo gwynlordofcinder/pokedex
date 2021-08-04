@@ -78,7 +78,7 @@ const createCard = pokemon => {
   } 0%, ${colors[elementalTypes[0]]} 75%)`;
   pokeEl.style.backgroundImage = backgroundColour;
   pokeEl.innerHTML = `
-  <img src="https://pokeres.bastionbot.org/images/pokemon/${
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${
     pokemon.id
   }.png" alt="${pokemon.name}" class='img-container'>
 
